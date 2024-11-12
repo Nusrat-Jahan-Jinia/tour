@@ -23,7 +23,7 @@ const theme = {
 
 
 
-export default function Sign_up() {
+export default function Sign_in() {
   const [email, setEmail] = React.useState("Your Email Address");
   const [password, setPassword] = React.useState("Your Password");
 
@@ -75,41 +75,24 @@ export default function Sign_up() {
                   value={password}
                   onFocus={()=>setPassword("")}
                   />
-                 <Button style={styles.signInBtn} icon="camera" mode="contained" onPress={handleSubmit}>
-                    <Text style={styles.signInTxt}>Sign in</Text>
+                 <Button style={styles.signInBtn} mode="contained" onPress={handleSubmit}>
+                    <Text style={styles.signInTxt}>SIGN IN</Text>
                 </Button>
                 <Text style={styles.password}>
                     or sign in with
               </Text>
               </View>
               <View style={styles.display}>
-                <SocialButton />
-                <Icon.Button
-                  name="facebook"
-                  backgroundColor="#3b5998"
-                >
-                  Login with Facebook
-                </Icon.Button>
-
-                <Button
-                  icon={() => (
-                    <Image
-                      source={require('../../assets/images/gmail.png')}
-                      style={styles.icon} />)}>
-                </Button>
-                <Button
-                  icon={() => (
-                    <Image
-                      source={require('../../assets/images/apple.png')}
-                      style={styles.icon} />)}>
-                  </Button>
-            </View>
+                <SocialButton title="Facebook" name="facebook" backgroundColor="#3b5998" />
+                <SocialButton title="Linkdln" name="linkedin-square" backgroundColor="#3b5998" />
+                <SocialButton title="Gmail" name="google-plus-square" backgroundColor="#c71610" />
+              </View>
 
 
              <View>
               <Button>
                 <Text style={styles.signupTxt}>Dont' have an account?</Text>
-                    <Link style={styles.signupBtn} href="/pages/sign_up"> Sign up</Link>
+                    <Link style={styles.signupBtn} href="/pages/sign_up"> SIGN UP</Link>
               </Button>
             </View>
           </View>
@@ -135,7 +118,8 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     flexWrap: 'wrap',
     justifyContent: 'center',
-    marginBottom:10,
+    gap: 10,
+    margin: 10,
   },
 
   headline: {
@@ -165,9 +149,9 @@ const styles = StyleSheet.create({
     height: 40,
     margin: 12,
     borderWidth: 0.5,
-    borderColor: 'gray',
+    borderColor: '#ccc',
     padding: 10,
-      borderRadius: 5,
+    borderRadius: 5,
     width: '100%',
 
   },
@@ -204,5 +188,6 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: 500,
   },
+
 
 });

@@ -1,13 +1,15 @@
 import Icon from 'react-native-vector-icons/FontAwesome';
 
-const SocialButton = () => {
+const SocialButton = ({title, name, backgroundColor}) => {
   return (
     <Icon.Button
-      name="facebook"
-      backgroundColor="#3b5998"
+      name={name}
+      backgroundColor={backgroundColor}
     >
-      Login with Facebook
+      {title}
     </Icon.Button>
 )};
 
 export default SocialButton;
+
+
