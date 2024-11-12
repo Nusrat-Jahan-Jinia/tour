@@ -34,7 +34,10 @@ const Accordion: React.FC<AccordionProps> = ({ title, description }) => {
       </TouchableOpacity>
       {expanded && (
         <Animated.View style={[styles.contentContainer, { height: heightAnimation }]}>
-          <Text style={styles.contentText}>{description}</Text>
+          <View style={styles.contentText}>
+            <Text style={styles.desTitle}>Visa Information</Text>
+            <Text>{description}</Text>
+          </View>
         </Animated.View>
       )}
     </View>
@@ -63,6 +66,10 @@ const styles = StyleSheet.create({
   },
   contentText: {
     fontSize: 14,
+  },
+  desTitle:{
+      fontSize: 20,
+      fontWeight: 400
   },
 });
 

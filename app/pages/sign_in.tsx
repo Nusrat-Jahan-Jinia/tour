@@ -36,7 +36,7 @@ export default function Sign_in() {
     console.log("login form sunmit");
     if (email == 'test@example.com' && password == 'password') {
       makeClearForm();
-      router.push("/pages/todo_list");
+      router.push("/(tabs)/explore");
     } else {
       makeClearForm();
        if( Platform.OS === 'web') {

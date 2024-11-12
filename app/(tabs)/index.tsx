@@ -13,7 +13,7 @@ export default function HomeScreen() {
       <ImageBackground source={ExampleImage} imageStyle={styles.imageStyle} style={styles.image}>
          <View style={styles.mainContent}>
             <Pressable>
-             <Link href="/(tabs)/explore">
+             <Link href="/pages/sign_in">
                <Image
                 style={styles.tinyLogo}
                 source={{

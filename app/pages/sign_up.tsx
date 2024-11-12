@@ -77,7 +77,7 @@ export default function Sign_up() {
              <View>
               <Button>
                 <Text style={styles.signupTxt}>Have an account?</Text>
-                    <Link style={styles.signupBtn} href="/pages/sign_up"> SIGN IN</Link>
+                    <Link style={styles.signupBtn} href="/pages/sign_in"> SIGN IN</Link>
               </Button>
             </View>
           </View>
