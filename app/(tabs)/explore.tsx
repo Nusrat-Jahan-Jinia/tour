@@ -18,11 +18,27 @@ import Accordion from '@/components/accordion';
 import ImageButton from '../../components/ImageButton';
 
 
+// schema of data: { id, title, description: [document[iterate int], extra_note], links }
 const DATA = [
   {
     id: 'thailand',
     title: 'Thailand',
-    description: 'Fist item content Fist item content Fist item content Fist item content Fist item content Fist item content Fist item content Fist item content Fist item content',
+    description:
+    {
+      documents: [{
+          name: "Passport",
+
+        },
+        {
+          photo: "Passport Photo",
+          descrition: "Size: 3x3"
+        },
+
+
+      ],
+      extra_notes: {
+      }
+    },
     links: ["kayak","Expedia"],
     image:""
   },
@@ -72,7 +88,7 @@ const theme = {
     primary: '#3498db',
     secondary: '#f1c40f',
     tertiary: '#a1b2c3',
-    
+
   },
 };
 type ItemProps = { title: string; description: string; links: string[] };
@@ -89,7 +105,7 @@ export default function TabTwoScreen({ title, description, links }: ItemProps) {
           ))}
           <View style={styles.btnContainer}>
             <View style={styles.btnWidth}>
-              
+
               <Link href="/pages/sign_in"><ImageButton title="Sign in" /></Link>
             </View>
             <View style={styles.btnWidth}>
@@ -97,7 +113,7 @@ export default function TabTwoScreen({ title, description, links }: ItemProps) {
             </View>
         </View>
         </PaperProvider>
-        
+
     </SafeAreaView>
   </SafeAreaProvider>
   );
