@@ -3,7 +3,8 @@ import { View, StyleSheet, Text, StatusBar, Image, TextInput, Alert, Platform, }
 import { SafeAreaView, SafeAreaProvider } from 'react-native-safe-area-context';
 import { useRouter, Link, router } from 'expo-router';
 import Accordion from '@/components/accordion';
-import {myButton} from '../../components/SocialButton';
+import SocialButton from '../../components/SocialButton';
+import Icon from 'react-native-vector-icons/FontAwesome';
 
 import { PaperProvider,Button, withTheme,MD3LightTheme } from 'react-native-paper';
 
@@ -25,7 +26,7 @@ const theme = {
 export default function Sign_up() {
   const [email, setEmail] = React.useState("Your Email Address");
   const [password, setPassword] = React.useState("Your Password");
-  
+
 
   const makeClearForm = () => {
     setEmail('');
@@ -60,7 +61,7 @@ export default function Sign_up() {
       <SafeAreaView style={styles.container}>
             <View style={styles.divStyle}>
               <Text style={styles.headline}>Sign in your account</Text>
-              
+
               <View>
                  <TextInput
                     style={styles.input}
@@ -82,8 +83,14 @@ export default function Sign_up() {
               </Text>
               </View>
               <View style={styles.display}>
-                <myButton />
-            
+                <SocialButton />
+                <Icon.Button
+                  name="facebook"
+                  backgroundColor="#3b5998"
+                >
+                  Login with Facebook
+                </Icon.Button>
+
                 <Button
                   icon={() => (
                     <Image
@@ -97,7 +104,7 @@ export default function Sign_up() {
                       style={styles.icon} />)}>
                   </Button>
             </View>
-            
+
 
              <View>
               <Button>
@@ -108,8 +115,8 @@ export default function Sign_up() {
           </View>
         </SafeAreaView>
     </SafeAreaProvider>
-    
- 
+
+
   );
 };
 
@@ -162,7 +169,7 @@ const styles = StyleSheet.create({
     padding: 10,
       borderRadius: 5,
     width: '100%',
-    
+
   },
   m10: {
       margin:10,
