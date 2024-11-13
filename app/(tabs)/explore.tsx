@@ -23,60 +23,311 @@ const DATA = [
   {
     id: 'thailand',
     title: 'Thailand',
-    description:
-    {
-      documents: [{
-          name: "Passport",
+    requirements: [{
+          title: "Application Form",
+          descrition: "An application form duly filled out and signed by the applicant."
 
         },
         {
-          photo: "Passport Photo",
-          descrition: "Size: 3x3"
+          title: "Valid Passport",
+          descrition:"A valid passport for travelling to Thailand with at least six months remaining validity. Passport must have at least 2 blank pages for a visa sticker and immigration stamps. One set of passport information page, most recent Thai visa page, and renewal page (if any)."
         },
-
-
-      ],
-      extra_notes: {
-      }
-    },
-    links: ["kayak","Expedia"],
-    image:""
+         {
+          title: "Active Phone Number",
+          descrition:"An active phone number is required."
+        },
+         {
+          title: "Photos",
+          description: "Two color passport-sized photos (3.5 x 4.5cm), taken against a white background and within the past 6 months."
+        },
+         {
+        title: "Proof of Finance",
+        description: "Evidence of adequate finance, such as a current Bank Solvency Certificate and Bank Statement of the last 6 months with satisfactory transaction amounts."
+        },
+         {
+            title: "Sponsor Financial Documents",
+            description: "If the applicant is sponsored by their company, the company Bank Statement, Bank Solvency Letter, and trade license must be attached. The Royal Thai Embassy reserves the right to request the applicant’s personal Bank Statement."
+        },
+         {
+          title: "Round-trip Ticket",
+          description: "A copy of a round-trip air ticket or a booking confirmation."
+        },
+         {
+          title: "Visa Request and Employer Letters",
+          description: "A visa request letter from the applicant and a recommendation letter from their employer. Include Salary Bank Statement, Pay Slip, or Salary Certificate for employees. A BMDC certificate or letter from hospital if the applicant is a Doctor, or a Bar Council Certificate or letter from a law firm if the applicant is a lawyer."
+        },
+         {
+          title: "Visa Fee",
+          description: "5000 taka"
+        },
+    ],
+    extra_note: "vvf",
+    links: ["Train Link"],
   },
   {
     id: 'singapur',
     title: 'Singapur',
-    description: 'second item content',
+    requirements: [{
+          title: "Application Form",
+          descrition: "An application form duly filled out and signed by the applicant."
+
+        },
+        {
+          title: "Valid Passport",
+          descrition:"A valid passport for travelling to Thailand with at least six months remaining validity. Passport must have at least 2 blank pages for a visa sticker and immigration stamps. One set of passport information page, most recent Thai visa page, and renewal page (if any)."
+        },
+         {
+          title: "Active Phone Number",
+          descrition:"An active phone number is required."
+        },
+         {
+          title: "Passport-sized Photos",
+          description: "Two color passport-sized photos (3.5 x 4.5cm), taken against a white background and within the past 6 months."
+        },
+         {
+        title: "Proof of Finance",
+        description: "Evidence of adequate finance, such as a current Bank Solvency Certificate and Bank Statement of the last 6 months with satisfactory transaction amounts."
+        },
+         {
+            title: "Sponsor Financial Documents",
+            description: "If the applicant is sponsored by their company, the company Bank Statement, Bank Solvency Letter, and trade license must be attached. The Royal Thai Embassy reserves the right to request the applicant’s personal Bank Statement."
+        },
+         {
+          title: "Round-trip Ticket",
+          description: "A copy of a round-trip air ticket or a booking confirmation."
+        },
+         {
+          title: "Visa Request and Employer Letters",
+          description: "A visa request letter from the applicant and a recommendation letter from their employer. Include Salary Bank Statement, Pay Slip, or Salary Certificate for employees. A BMDC certificate or letter from hospital if the applicant is a Doctor, or a Bar Council Certificate or letter from a law firm if the applicant is a lawyer."
+          },
+         {
+          title: "Visa Fee",
+          description: "5000 taka"
+        },
+    ],
+    extra_note: "vvf",
     links: ["Flight Link"],
   },
   {
     id: 'malyasia',
     title: 'Malyasia',
-    description: 'Third item content',
+    requirements: [{
+          title: "Application Form",
+          descrition: "An application form duly filled out and signed by the applicant."
+
+        },
+        {
+          title: "Valid Passport",
+          descrition:"A valid passport for travelling to Thailand with at least six months remaining validity. Passport must have at least 2 blank pages for a visa sticker and immigration stamps. One set of passport information page, most recent Thai visa page, and renewal page (if any)."
+        },
+         {
+          title: "Active Phone Number",
+          descrition:"An active phone number is required."
+        },
+         {
+          title: "Passport-sized Photos",
+          description: "Two color passport-sized photos (3.5 x 4.5cm), taken against a white background and within the past 6 months."
+        },
+         {
+        title: "Proof of Finance",
+        description: "Evidence of adequate finance, such as a current Bank Solvency Certificate and Bank Statement of the last 6 months with satisfactory transaction amounts."
+        },
+         {
+            title: "Sponsor Financial Documents",
+            description: "If the applicant is sponsored by their company, the company Bank Statement, Bank Solvency Letter, and trade license must be attached. The Royal Thai Embassy reserves the right to request the applicant’s personal Bank Statement."
+        },
+         {
+          title: "Round-trip Ticket",
+          description: "A copy of a round-trip air ticket or a booking confirmation."
+        },
+         {
+          title: "Visa Request and Employer Letters",
+          description: "A visa request letter from the applicant and a recommendation letter from their employer. Include Salary Bank Statement, Pay Slip, or Salary Certificate for employees. A BMDC certificate or letter from hospital if the applicant is a Doctor, or a Bar Council Certificate or letter from a law firm if the applicant is a lawyer."
+        },
+        {
+          title: "Visa Fee",
+          description: "5000 taka"
+        },
+    ],
+    extra_note: "vvf",
     links: ["Train Link"],
   },
   {
     id: 'nepal',
     title: 'Nepal',
-    description: 'Third item content',
+    requirements: [{
+          title: "Application Form",
+          descrition: "An application form duly filled out and signed by the applicant."
+
+        },
+        {
+          title: "Valid Passport",
+          descrition:"A valid passport for travelling to Thailand with at least six months remaining validity. Passport must have at least 2 blank pages for a visa sticker and immigration stamps. One set of passport information page, most recent Thai visa page, and renewal page (if any)."
+        },
+         {
+          title: "Active Phone Number",
+          descrition:"An active phone number is required."
+        },
+         {
+          title: "Passport-sized Photos",
+          description: "Two color passport-sized photos (3.5 x 4.5cm), taken against a white background and within the past 6 months."
+        },
+         {
+        title: "Proof of Finance",
+        description: "Evidence of adequate finance, such as a current Bank Solvency Certificate and Bank Statement of the last 6 months with satisfactory transaction amounts."
+        },
+         {
+            title: "Sponsor Financial Documents",
+            description: "If the applicant is sponsored by their company, the company Bank Statement, Bank Solvency Letter, and trade license must be attached. The Royal Thai Embassy reserves the right to request the applicant’s personal Bank Statement."
+        },
+         {
+          title: "Round-trip Ticket",
+          description: "A copy of a round-trip air ticket or a booking confirmation."
+        },
+         {
+          title: "Visa Request and Employer Letters",
+          description: "A visa request letter from the applicant and a recommendation letter from their employer. Include Salary Bank Statement, Pay Slip, or Salary Certificate for employees. A BMDC certificate or letter from hospital if the applicant is a Doctor, or a Bar Council Certificate or letter from a law firm if the applicant is a lawyer."
+        },
+        {
+          title: "Visa Fee",
+          description: "5000 taka"
+        },
+    ],
+    extra_note: "vvf",
     links: ["kayak","Expedia"],
   },
   {
     id: 'bhutan',
     title: 'Bhutan',
-    description: 'Third item content',
+  requirements: [{
+          title: "Application Form",
+          descrition: "An application form duly filled out and signed by the applicant."
+
+        },
+        {
+          title: "Valid Passport",
+          descrition:"A valid passport for travelling to Thailand with at least six months remaining validity. Passport must have at least 2 blank pages for a visa sticker and immigration stamps. One set of passport information page, most recent Thai visa page, and renewal page (if any)."
+        },
+         {
+          title: "Active Phone Number",
+          descrition:"An active phone number is required."
+        },
+         {
+          title: "Passport-sized Photos",
+          description: "Two color passport-sized photos (3.5 x 4.5cm), taken against a white background and within the past 6 months."
+        },
+         {
+        title: "Proof of Finance",
+        description: "Evidence of adequate finance, such as a current Bank Solvency Certificate and Bank Statement of the last 6 months with satisfactory transaction amounts."
+        },
+         {
+            title: "Sponsor Financial Documents",
+            description: "If the applicant is sponsored by their company, the company Bank Statement, Bank Solvency Letter, and trade license must be attached. The Royal Thai Embassy reserves the right to request the applicant’s personal Bank Statement."
+        },
+         {
+          title: "Round-trip Ticket",
+          description: "A copy of a round-trip air ticket or a booking confirmation."
+        },
+         {
+          title: "Visa Request and Employer Letters",
+          description: "A visa request letter from the applicant and a recommendation letter from their employer. Include Salary Bank Statement, Pay Slip, or Salary Certificate for employees. A BMDC certificate or letter from hospital if the applicant is a Doctor, or a Bar Council Certificate or letter from a law firm if the applicant is a lawyer."
+        },
+        {
+          title: "Visa Fee",
+          description: "5000 taka"
+        },
+
+    ],
+  extra_note: "vvf",
     links: ["Train Link"],
   },
   {
     id: 'indoneshia',
     title: 'Indoneshia',
-    description: 'Third item content',
+   requirements: [{
+          title: "Application Form",
+          descrition: "An application form duly filled out and signed by the applicant."
+
+        },
+        {
+          title: "Valid Passport",
+          descrition:"A valid passport for travelling to Thailand with at least six months remaining validity. Passport must have at least 2 blank pages for a visa sticker and immigration stamps. One set of passport information page, most recent Thai visa page, and renewal page (if any)."
+        },
+         {
+          title: "Active Phone Number",
+          descrition:"An active phone number is required."
+        },
+         {
+          title: "Passport-sized Photos",
+          description: "Two color passport-sized photos (3.5 x 4.5cm), taken against a white background and within the past 6 months."
+        },
+         {
+        title: "Proof of Finance",
+        description: "Evidence of adequate finance, such as a current Bank Solvency Certificate and Bank Statement of the last 6 months with satisfactory transaction amounts."
+        },
+         {
+            title: "Sponsor Financial Documents",
+            description: "If the applicant is sponsored by their company, the company Bank Statement, Bank Solvency Letter, and trade license must be attached. The Royal Thai Embassy reserves the right to request the applicant’s personal Bank Statement."
+        },
+         {
+          title: "Round-trip Ticket",
+          description: "A copy of a round-trip air ticket or a booking confirmation."
+        },
+         {
+          title: "Visa Request and Employer Letters",
+          description: "A visa request letter from the applicant and a recommendation letter from their employer. Include Salary Bank Statement, Pay Slip, or Salary Certificate for employees. A BMDC certificate or letter from hospital if the applicant is a Doctor, or a Bar Council Certificate or letter from a law firm if the applicant is a lawyer."
+        },
+        {
+          title: "Visa Fee",
+          description: "5000 taka"
+        },
+    ],
+   extra_note: "vvf",
     links: ["Train Link"],
   },
   {
     id: 'srilanka',
     title: 'Srilanka',
-    description: 'Third item content',
-    links: ["Train Link"],
+    requirements: [{
+          title: "Application Form",
+          descrition: "An application form duly filled out and signed by the applicant."
+
+        },
+        {
+          title: "Valid Passport",
+          descrition:"A valid passport for travelling to Thailand with at least six months remaining validity. Passport must have at least 2 blank pages for a visa sticker and immigration stamps. One set of passport information page, most recent Thai visa page, and renewal page (if any)."
+        },
+         {
+          title: "Active Phone Number",
+          descrition:"An active phone number is required."
+        },
+         {
+          title: "Passport-sized Photos",
+          description: "Two color passport-sized photos (3.5 x 4.5cm), taken against a white background and within the past 6 months."
+        },
+         {
+        title: "Proof of Finance",
+        description: "Evidence of adequate finance, such as a current Bank Solvency Certificate and Bank Statement of the last 6 months with satisfactory transaction amounts."
+        },
+         {
+            title: "Sponsor Financial Documents",
+            description: "If the applicant is sponsored by their company, the company Bank Statement, Bank Solvency Letter, and trade license must be attached. The Royal Thai Embassy reserves the right to request the applicant’s personal Bank Statement."
+        },
+         {
+          title: "Round-trip Ticket",
+          description: "A copy of a round-trip air ticket or a booking confirmation."
+        },
+         {
+          title: "Visa Request and Employer Letters",
+          description: "A visa request letter from the applicant and a recommendation letter from their employer. Include Salary Bank Statement, Pay Slip, or Salary Certificate for employees. A BMDC certificate or letter from hospital if the applicant is a Doctor, or a Bar Council Certificate or letter from a law firm if the applicant is a lawyer."
+        },
+        {
+          title: "Visa Fee",
+          description: "5000 taka"
+      },
+    ],
+    extra_note: "vvf",
+    links: ["http://www.slhcdhaka.org/consular_visa.php"],
   },
 ];
 
