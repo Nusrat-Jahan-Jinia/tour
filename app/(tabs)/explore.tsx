@@ -25,16 +25,16 @@ const DATA = [
     title: 'Thailand',
     requirements: [{
           title: "Application Form",
-          descrition: "An application form duly filled out and signed by the applicant."
+          description: "An application form duly filled out and signed by the applicant."
 
         },
         {
           title: "Valid Passport",
-          descrition:"A valid passport for travelling to Thailand with at least six months remaining validity. Passport must have at least 2 blank pages for a visa sticker and immigration stamps. One set of passport information page, most recent Thai visa page, and renewal page (if any)."
+          description:"A valid passport for travelling to Thailand with at least six months remaining validity. Passport must have at least 2 blank pages for a visa sticker and immigration stamps. One set of passport information page, most recent Thai visa page, and renewal page (if any)."
         },
          {
           title: "Active Phone Number",
-          descrition:"An active phone number is required."
+          description:"An active phone number is required."
         },
          {
           title: "Photos",
@@ -69,16 +69,16 @@ const DATA = [
     title: 'Singapur',
     requirements: [{
           title: "Application Form",
-          descrition: "An application form duly filled out and signed by the applicant."
+          description: "An application form duly filled out and signed by the applicant."
 
         },
         {
           title: "Valid Passport",
-          descrition:"A valid passport for travelling to Thailand with at least six months remaining validity. Passport must have at least 2 blank pages for a visa sticker and immigration stamps. One set of passport information page, most recent Thai visa page, and renewal page (if any)."
+          description:"A valid passport for travelling to Thailand with at least six months remaining validity. Passport must have at least 2 blank pages for a visa sticker and immigration stamps. One set of passport information page, most recent Thai visa page, and renewal page (if any)."
         },
          {
           title: "Active Phone Number",
-          descrition:"An active phone number is required."
+          description:"An active phone number is required."
         },
          {
           title: "Passport-sized Photos",
@@ -113,16 +113,16 @@ const DATA = [
     title: 'Malyasia',
     requirements: [{
           title: "Application Form",
-          descrition: "An application form duly filled out and signed by the applicant."
+          description: "An application form duly filled out and signed by the applicant."
 
         },
         {
           title: "Valid Passport",
-          descrition:"A valid passport for travelling to Thailand with at least six months remaining validity. Passport must have at least 2 blank pages for a visa sticker and immigration stamps. One set of passport information page, most recent Thai visa page, and renewal page (if any)."
+          description:"A valid passport for travelling to Thailand with at least six months remaining validity. Passport must have at least 2 blank pages for a visa sticker and immigration stamps. One set of passport information page, most recent Thai visa page, and renewal page (if any)."
         },
          {
           title: "Active Phone Number",
-          descrition:"An active phone number is required."
+          description:"An active phone number is required."
         },
          {
           title: "Passport-sized Photos",
@@ -157,16 +157,16 @@ const DATA = [
     title: 'Nepal',
     requirements: [{
           title: "Application Form",
-          descrition: "An application form duly filled out and signed by the applicant."
+          description: "An application form duly filled out and signed by the applicant."
 
         },
         {
           title: "Valid Passport",
-          descrition:"A valid passport for travelling to Thailand with at least six months remaining validity. Passport must have at least 2 blank pages for a visa sticker and immigration stamps. One set of passport information page, most recent Thai visa page, and renewal page (if any)."
+          description:"A valid passport for travelling to Thailand with at least six months remaining validity. Passport must have at least 2 blank pages for a visa sticker and immigration stamps. One set of passport information page, most recent Thai visa page, and renewal page (if any)."
         },
          {
           title: "Active Phone Number",
-          descrition:"An active phone number is required."
+          description:"An active phone number is required."
         },
          {
           title: "Passport-sized Photos",
@@ -201,16 +201,16 @@ const DATA = [
     title: 'Bhutan',
   requirements: [{
           title: "Application Form",
-          descrition: "An application form duly filled out and signed by the applicant."
+          description: "An application form duly filled out and signed by the applicant."
 
         },
         {
           title: "Valid Passport",
-          descrition:"A valid passport for travelling to Thailand with at least six months remaining validity. Passport must have at least 2 blank pages for a visa sticker and immigration stamps. One set of passport information page, most recent Thai visa page, and renewal page (if any)."
+          description:"A valid passport for travelling to Thailand with at least six months remaining validity. Passport must have at least 2 blank pages for a visa sticker and immigration stamps. One set of passport information page, most recent Thai visa page, and renewal page (if any)."
         },
          {
           title: "Active Phone Number",
-          descrition:"An active phone number is required."
+          description:"An active phone number is required."
         },
          {
           title: "Passport-sized Photos",
@@ -246,16 +246,16 @@ const DATA = [
     title: 'Indoneshia',
    requirements: [{
           title: "Application Form",
-          descrition: "An application form duly filled out and signed by the applicant."
+          description: "An application form duly filled out and signed by the applicant."
 
         },
         {
           title: "Valid Passport",
-          descrition:"A valid passport for travelling to Thailand with at least six months remaining validity. Passport must have at least 2 blank pages for a visa sticker and immigration stamps. One set of passport information page, most recent Thai visa page, and renewal page (if any)."
+          description:"A valid passport for travelling to Thailand with at least six months remaining validity. Passport must have at least 2 blank pages for a visa sticker and immigration stamps. One set of passport information page, most recent Thai visa page, and renewal page (if any)."
         },
          {
           title: "Active Phone Number",
-          descrition:"An active phone number is required."
+          description:"An active phone number is required."
         },
          {
           title: "Passport-sized Photos",
@@ -290,16 +290,16 @@ const DATA = [
     title: 'Srilanka',
     requirements: [{
           title: "Application Form",
-          descrition: "An application form duly filled out and signed by the applicant."
+          description: "An application form duly filled out and signed by the applicant."
 
         },
         {
           title: "Valid Passport",
-          descrition:"A valid passport for travelling to Thailand with at least six months remaining validity. Passport must have at least 2 blank pages for a visa sticker and immigration stamps. One set of passport information page, most recent Thai visa page, and renewal page (if any)."
+          description:"A valid passport for travelling to Thailand with at least six months remaining validity. Passport must have at least 2 blank pages for a visa sticker and immigration stamps. One set of passport information page, most recent Thai visa page, and renewal page (if any)."
         },
          {
           title: "Active Phone Number",
-          descrition:"An active phone number is required."
+          description:"An active phone number is required."
         },
          {
           title: "Passport-sized Photos",
